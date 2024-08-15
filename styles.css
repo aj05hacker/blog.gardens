@@ -104,11 +104,11 @@ header {
     height: 100vh; /* Set the header height to 50% of the viewport height */
     box-sizing: border-box; /* Ensure padding is included in the height */
     background-position: center top; /* Align the image at the top */
+    text-shadow: #ffffff;
 }
 
 
-header h1, header h2, header p, header a {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
 
 
 header::before {
