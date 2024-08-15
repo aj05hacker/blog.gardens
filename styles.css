@@ -97,7 +97,7 @@ nav ul li a {
 header {
     background: url('./images/bg4.png') no-repeat center center;
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 130px 20px;
     position: relative;
     overflow: hidden;
@@ -105,6 +105,10 @@ header {
     box-sizing: border-box; /* Ensure padding is included in the height */
     background-position: center top; /* Align the image at the top */
 }
+
+
+header h1, header h2, header p, header a {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
 
 header::before {
