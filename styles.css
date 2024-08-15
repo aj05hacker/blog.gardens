@@ -97,8 +97,8 @@ nav ul li a {
 header {
     background: url('./images/bg4.png') no-repeat center center;
     background-size: cover;
-    color: rgb(0, 0, 0);
-    padding: 150px 20px;
+    color: rgb(255, 255, 255);
+    padding: 130px 20px;
     position: relative;
     overflow: hidden;
     height: 100vh; /* Set the header height to 50% of the viewport height */
