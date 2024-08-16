@@ -202,7 +202,11 @@ section h2 {
 }
 
 .gallery-grid img:hover {
+<<<<<<< HEAD
     transform: scale(.3);
+=======
+    transform: scale(.3);
+>>>>>>> d090f7abe9a337bb8c540df4443b13526c162fd9
 }
 
 footer {
