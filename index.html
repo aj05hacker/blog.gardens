@@ -89,6 +89,13 @@
                     <img src="./images/image4.svg" alt="Gallery Image 4">
                     <img src="./images/image5.svg" alt="Gallery Image 5">
                     <!--img src="./images/blog5.jpg" alt="Gallery Image 6"-->
+
+                    <div id="imageModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="modalImg">
+                        <a id="downloadBtn" href="#" download><button>Download</button></a>
+                    </div>
+                    
                 </div>
             </section>
             <button class="read-more-btn" onclick="window.location.href='https://blogs.abdulhajees.in'" style="align-items: center;">Read Other Blogs</button>
@@ -135,6 +142,35 @@
                 nav.classList.toggle('active');
             });
         });
+
+
+        // Get the modal elements
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+const downloadBtn = document.getElementById("downloadBtn");
+const closeBtn = document.getElementsByClassName("close")[0];
+
+// Add event listeners to gallery images
+document.querySelectorAll(".gallery-grid img").forEach(img => {
+    img.addEventListener("click", function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        downloadBtn.href = this.src;
+    });
+});
+
+// Close the modal
+closeBtn.onclick = function() { 
+    modal.style.display = "none";
+}
+
+// Close the modal when clicking outside the image
+modal.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+
     </script>
 </body>
 </html>
