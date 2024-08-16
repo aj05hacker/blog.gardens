@@ -352,6 +352,9 @@ footer a:hover {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 5cm;
+    width: 80%;
+    height: 80%;
+    
 }
 
 #downloadBtn button {
