@@ -288,8 +288,8 @@ footer a:hover {
 
 /* Modal styles */
 .modal {
-    display:inline-block;
-    position:relative;
+    display:none;
+    position:static;
     z-index: 1001;
     left: 0;
     top: 0;
