@@ -5,8 +5,6 @@ body {
     background-color: #f4f4f4;
     scroll-behavior: smooth;
 }
-
-
 p,li{
     text-align:justify
 }
@@ -319,25 +317,6 @@ footer a:hover {
 @keyframes zoom {
     from {transform: scale(0)}
     to {transform: scale(1)}
-}
-
-/* Close button */
-.close {
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 /* Download button */
